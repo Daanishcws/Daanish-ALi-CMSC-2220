@@ -1,0 +1,32 @@
+﻿// Author: Daanish Ali Date:10/18/2002 Problem: Exercise 4.34
+Load Zero
+
+Store SUM                 
+
+Loop, Load X            
+
+Subt Ten                   
+
+SkipCond 000          
+
+Jump Endloop          
+
+Load SUM                 
+
+Add One               
+
+Store SUM               
+
+Jump Loop               
+
+Endloop, Halt          
+
+SUM, Dec 36
+
+X, Dec 0                  
+
+One, Dec 1             
+
+Zero, Dec 0           
+
+Ten, Dec 10              

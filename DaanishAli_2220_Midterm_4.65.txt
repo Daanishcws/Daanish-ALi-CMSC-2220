@@ -1,0 +1,41 @@
+﻿// Author: Daanish Ali Date:11/02/2002 Problem: MidTerm - E_4.65
+
+Input
+Store max
+Store min
+
+While, Load Ctrl
+Subt One
+Store Ctrl
+Skipcond 800
+Jump EndWhile
+
+Body,Input
+Store Tmp
+Load max
+Subt Tmp
+If, Skipcond 000
+Jump Else
+Load Tmp
+Store max
+Jump While
+Else,Load min
+Subt Tmp
+Skipcond 800
+Jump While
+Load Tmp
+Store min
+Jump While
+EndWhile,Load min
+//Output SMALLEST
+Output
+load max
+//Output LARGEST
+Output
+halt
+
+max, Dec 0
+min, Dec 0
+Tmp, DEC 0
+Ctrl, DEC 8
+One, DEC 1

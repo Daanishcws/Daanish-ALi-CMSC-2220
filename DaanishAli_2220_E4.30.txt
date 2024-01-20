@@ -1,0 +1,33 @@
+﻿// Author: Daanish Ali Date:11/2/23 Problem: Exercise 4.30
+
+ORG 100
+
+If, Load X
+    Subt Y
+    Skipcond 800
+    Jump Else1
+
+    Load Y
+    Add One
+    Store Y
+    Clear
+
+Else1, Load X
+    Subt Z
+    Skipcond 400
+    Jump Else2
+
+    Load Y
+    Subt One
+    Store Y
+    Clear
+
+Else2, Load Z
+    Add One
+    Store Z
+    Halt
+
+X, Dec 0
+Y, Dec 0
+Z, Dec 0
+One, Dec 1

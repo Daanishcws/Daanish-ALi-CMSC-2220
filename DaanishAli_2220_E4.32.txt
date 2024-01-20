@@ -1,0 +1,39 @@
+// Author: Daanish Ali Date:10/15/2002 Problem: Exercise 4.32
+
+
+    Input
+    Store A
+    Input
+    Store  B
+    Input
+    Store  C
+    Input
+    Store D
+
+	Load  A
+    ADD B
+    Store  AB
+
+
+    Load C
+    ADD D
+    Store  CD
+
+    Load  AB
+    ADD CD
+    Store  RESULT
+
+
+    Load  RESULT
+    Output
+    Halt
+
+A, DEC 0
+B, DEC 0
+C, DEC 0
+D, DEC 0
+AB, DEC 0
+CD, DEC 0
+RESULT, DEC 0
+
+END 100

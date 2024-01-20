@@ -1,0 +1,22 @@
+﻿// Author: Daanish Ali Date:10/15/2002 Problem: Exercise 4.30
+
+
+   Load X     
+   Subt One   
+   Skipcond 800 
+   Jump Else  
+
+   Load X     
+   Add X      
+   Store Y    
+   Clear
+   Store X    
+
+Else, Load Y   
+   Add One     
+   Halt       
+
+X, DEC 0
+Y, DEC 0
+One, DEC 1  
+
